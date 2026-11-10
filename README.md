@@ -12,12 +12,14 @@ Includes tactile feedback, realistic 3D lighting, animated button presses, rando
 - **pnpm**: v9 or higher
 
 Check your installed versions:
+
 ```bash
 node -v
 pnpm -v
 ```
 
 If you do not have `pnpm` installed:
+
 ```bash
 npm install -g pnpm
 ```
@@ -27,28 +29,30 @@ npm install -g pnpm
 ## Getting Started
 
 1. **Clone the repository:**
+
    ```bash
    git clone https://github.com/kailash-murali/timer.git
    cd timer
    ```
-
 2. **Install dependencies:**
+
    ```bash
    pnpm install
    ```
-
 3. **Start the development server:**
+
    ```bash
    pnpm dev
    ```
-   Open the browser URL displayed in your terminal (usually `http://localhost:5173`).
 
+   Open the browser URL displayed in your terminal (usually `http://localhost:5173`).
 4. **Build for production:**
+
    ```bash
    pnpm build
    ```
-
 5. **Preview production build:**
+
    ```bash
    pnpm preview
    ```
@@ -59,16 +63,16 @@ npm install -g pnpm
 
 You can interact with the app by clicking directly on the 3D controller buttons or by using your keyboard:
 
-| Key | Button | Action |
-|:---:|:---:|:---|
-| **Space** | **PS Button** | Power on / off the controller |
-| **A** | **L1** | Switch to **Clock** mode |
-| **D** | **R1** | Switch to **Timer** mode |
-| **↑** (Up Arrow) | **△** (Triangle) | Roll random duration (10–40 min) |
-| **←** (Left Arrow) | **□** (Square) | Start / pause timer |
-| **→** (Right Arrow) | **○** (Circle) | Stop timer (press again to reset to `--:--`) |
-| **↓** (Down Arrow) | **✕** (Cross) | Restart countdown from the beginning |
-| **?** | — | Open / close help & legend panel (or click outside to close) |
+|            Key            |         Button         | Action                                                       |
+| :------------------------: | :---------------------: | :----------------------------------------------------------- |
+|      **Space**      |   **PS Button**   | Power on / off the controller                                |
+|        **A**        |      **L1**      | Switch to **Clock** mode                               |
+|        **D**        |      **R1**      | Switch to **Timer** mode                               |
+|  **↑** (Up Arrow)  | **△** (Triangle) | Roll random duration (10–40 min)                            |
+| **←** (Left Arrow) |  **□** (Square)  | Start / pause timer                                          |
+| **→** (Right Arrow) |  **○** (Circle)  | Stop timer (press again to reset to `--:--`)               |
+| **↓** (Down Arrow) |  **✕** (Cross)  | Restart countdown from the beginning                         |
+|        **?**        |           —           | Open / close help & legend panel (or click outside to close) |
 
 ---
 
